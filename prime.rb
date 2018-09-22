@@ -5,7 +5,7 @@ def prime?(integer)
   if integer < i  
     return false 
   else 
-    while i < upper_limit 
+    while i <= upper_limit 
       if integer%i == 0 
         return false 
       else 
