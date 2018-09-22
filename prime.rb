@@ -1,8 +1,8 @@
 def prime?(integer) 
   upper_limit = Math.sqrt(integer)
-  i = 3 
+  i = 2 
   
-  if integer <= 0 
+  if integer <= 0 || integer == 1  
     return false 
   else 
     while i < upper_limit 
