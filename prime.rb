@@ -1,5 +1,5 @@
 require 'math'
 
 def prime?(integer) 
-  upper_limit = i
+  upper_limit = Math.sqrt(integer)
 end
