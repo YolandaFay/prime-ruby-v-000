@@ -1,10 +1,10 @@
 def prime?(integer) 
-  upper_limit = Math.sqrt(integer)
   i = 2 
   
   if integer < i  
     return false 
   else 
+    upper_limit = Math.sqrt(integer)
     while i <= upper_limit 
       if integer%i == 0 
         return false 
