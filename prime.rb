@@ -2,7 +2,7 @@ def prime?(integer)
   upper_limit = Math.sqrt(integer)
   i = 2 
   
-  if integer <= 0 || integer == 1  
+  if integer <= i  
     return false 
   else 
     while i < upper_limit 
