@@ -6,7 +6,7 @@ def prime?(integer)
   else 
     upper_limit = Math.sqrt(integer)
     while i <= upper_limit 
-      integer%i == 0 ? (return false) : i += 1 
+      integer%i == 0 ? return false : i += 1 
      end
   end
     return true 
