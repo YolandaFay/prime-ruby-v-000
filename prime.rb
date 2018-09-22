@@ -1,6 +1,6 @@
 def prime?(integer) 
   upper_limit = Math.sqrt(integer)
-  i = 2 
+  i = 3 
   
   if integer <= 0 
     return false 
